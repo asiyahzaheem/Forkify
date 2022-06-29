@@ -55,5 +55,6 @@ export const numberToFraction = function (amount) {
   if (base) {
     amount = base + ' ' + amount;
   }
+  console.log(amount);
   return amount;
 };
